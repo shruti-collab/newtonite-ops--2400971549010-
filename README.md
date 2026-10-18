@@ -154,11 +154,23 @@ Add genuine screenshots from the running application if you want the repository 
 2. Work-item detail showing status, actions, comments, and activity history
 3. A permission/workflow restriction or conflict message, if you can reproduce it safely
 
+
+
+## Demo Video
+
+[Watch the OpsPulse demo](https://drive.google.com/file/d/192w-R1VrMf8dRU_W7YCzoPGHXQsJdij4/view?usp=sharing)
+
 Save the images under `docs/screenshots/`, then add them to this section using Markdown, for example:
 
 ```markdown
+
 ![OpsPulse dashboard](docs/screenshots/dashboard.png)
-![Work-item detail](docs/screenshots/item-detail.png)
+
+![Work-item details](docs/screenshots/item-detail.png)
+
+![Workflow](docs/screenshots/workflow.png)
+
+![Workflow](docs/screenshots/login.png)
 ```
 
 Do not use mockups as evidence of a working application. A 3–5 minute demo video is optional but recommended by the assessment. If you record one, add the shareable video URL here or include it in the submission form.
@@ -177,11 +189,3 @@ See [ENGINEERING_DECISIONS.md](./ENGINEERING_DECISIONS.md) for the reasoning and
 - The seed data is intentionally small; a scale test could seed thousands of items and compare query plans with `EXPLAIN ANALYZE`.
 - Production deployment requires secure secrets, database configuration, and deployment-specific CORS settings.
 
-
-![OpsPulse dashboard](docs/screenshots/dashboard.png)
-
-![Work-item details](docs/screenshots/item-detail.png)
-
-![Workflow](docs/screenshots/workflow.png)
-
-![Workflow](docs/screenshots/login.png)
